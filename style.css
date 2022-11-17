@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: dodgerblue;
+    font-size: 16px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+form {
+    position: relative;
+    width: 55%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 0px purple;
+    padding-bottom: 50px;
+    margin: 50px;
+}
+
+.question {
+    font-weight: bolder;
+}
+
+.answers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.answers label {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.send-button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 32px;
+    border-radius: 10px;
+    border: 1px solid purple;
+    padding: 0 40px;
+    line-height: 1.6;
+    background-color: gold;
+    box-shadow: 4px 4px 0px purple;
+    position: absolute;
+    bottom: -25px;
+    right: -50px;
+}
